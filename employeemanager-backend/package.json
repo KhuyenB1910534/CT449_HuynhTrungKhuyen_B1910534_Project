@@ -1,6 +1,29 @@
 {
+  "name": "contact-fontend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "author": "",
+  "license": "ISC",
   "dependencies": {
+    "bcrypt": "^5.1.0",
+    "body-parser": "^1.20.2",
     "cors": "^2.8.5",
-    "express": "^4.18.2"
+    "encrypto": "^1.0.6",
+    "express": "^4.18.2",
+    "express-flash": "0.0.2",
+    "express-session": "^1.16.2",
+    "method-override": "^3.0.0",
+    "mongodb": "^4.12.1",
+    "mongoose": "^5.11.15",
+    "passport": "^0.6.0",
+    "passport-local": "^1.0.0",
+    "simple-encryptor": "^4.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
   }
 }
